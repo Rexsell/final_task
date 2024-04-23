@@ -36,7 +36,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: <Docker ID>/final_app
+          images: nvid123/final_app
 
       - name: Build and push Docker Inage
         uses: docker/build-push-action@v5
